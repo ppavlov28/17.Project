@@ -1,13 +1,11 @@
 # 17.Project
 ### Deploy Wordpress
-Этот проект позволяет развернуть Wordpress и MySQL.
-Управление проектом осуществляется через Jenkins или Slack.
-Возможны следующие операции:
+This project allows you to deploy Wordpress and MySQL. Project management is through Jenkins or Slack. The following operations are possible:
 1. Deploy
 2. Backup
 3. Restore (only last backup in Slack)
 4. Remove installation
-### В проекте использовались
+### The project used
 - Github
 - Jenkins
 - Docker (Wordpress & MySQL image)

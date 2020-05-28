@@ -116,7 +116,7 @@ pipeline {
                 equals expected: "deploy", actual: "${params.START_JOB}"
             }
             steps {
-                sleep 40
+                sleep 60
             }
         }
         stage('config wordpress') {
