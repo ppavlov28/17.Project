@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Git Repo') {
             steps {
-                git credentialsId: 'b2922652-0478-4a1d-8072-7083a8ef79f8', url: 'git@github.com:ppavlov28/17.Project.git'
+                git credentialsId: 'ima-m11d_key', url: 'git@github.com:ppavlov28/17.Project.git'
             }
         }
         stage('init environment') {
